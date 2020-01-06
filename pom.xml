@@ -32,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.11</junit.version>
         <mockito.version>1.9.5</mockito.version>
-        <guava.version>15.0</guava.version>
+        <guava.version>25.1-android</guava.version>
         <commons-lang.version>2.6</commons-lang.version>
         <commons-io.version>2.4</commons-io.version>
         <servlet-api.version>2.5</servlet-api.version>
@@ -45,7 +45,6 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
-            <classifier>cdi1.0</classifier>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
